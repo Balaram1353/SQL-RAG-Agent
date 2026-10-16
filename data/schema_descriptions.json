@@ -1,0 +1,37 @@
+{
+  "customers": {
+    "description": "Contains one record for each customer.",
+    "columns": {
+      "customer_id": "Unique identifier for a customer.",
+      "name": "Customer's full name.",
+      "email": "Customer's email address.",
+      "country": "Country where the customer is located."
+    }
+  },
+  "products": {
+    "description": "Contains the products sold by the company.",
+    "columns": {
+      "product_id": "Unique identifier for a product.",
+      "name": "Name of the product.",
+      "category": "Product category.",
+      "price": "Selling price of one unit of the product."
+    }
+  },
+  "orders": {
+    "description": "Contains one record for each customer order.",
+    "columns": {
+      "order_id": "Unique identifier for an order.",
+      "customer_id": "Customer who placed the order.",
+      "order_date": "Date when the order was placed."
+    }
+  },
+  "order_items": {
+    "description": "Contains the individual products included in each order.",
+    "columns": {
+      "order_item_id": "Unique identifier for an order item.",
+      "order_id": "Order containing the item.",
+      "product_id": "Product included in the order.",
+      "quantity": "Number of units of the product purchased."
+    }
+  }
+}

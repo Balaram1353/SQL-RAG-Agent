@@ -1,0 +1,44 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Local virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local logs
+*.log
+
+# Python cache directories
+__pycache__/
+
+# Local databases (remove this rule if publishing a verified demo database)
+# data/*.db
+
+# Local databases and downloaded datasets
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/*.xlsx
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
